@@ -1,5 +1,5 @@
 
-console.log("I am ready");
+
 
 function showNotes() {
 
@@ -111,7 +111,7 @@ document.addEventListener('click', (e) => {
             let nodeText=grandParent.getElementsByTagName('p')[0];
             
             let html=`  <div class="card-title">
-            <h5>Update note</h5>
+            <h5>Update title</h5>
             <textarea name="" id="title" cols="30" rows="1"></textarea>
         </div>
         <div class="card-note">
